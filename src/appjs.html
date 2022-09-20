@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/fonts/fontawesome//css/all.css" />
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body class="flex flex-col gap-4">
+    <!-- CLASSICAL NORMAL HEADER BEGINS HERE-->
+    <header class="bg-[black] flex items-center justify-between p-5 shadow">
+      <a
+        href="#"
+        class="text-white text-2xl uppercase border-b-2 border-b-white animate-pulse rounded-full"
+        id="head"
+      >
+        <h1>somto</h1></a
+      >
+      <div class="div">
+        <ul class="flex text-white sm:gap-5 uppercase text-center ul" id="ul">
+          <a href="#" class="sm:border-b-2"><li>Home</li></a>
+          <a href="#" class="sm:hover:border-b-2 opacity-70 hover:opacity-100"
+            ><li>About us</li></a
+          >
+          <a href="#" class="sm:hover:border-b-2 opacity-70 hover:opacity-100"
+            ><li>services</li></a
+          >
+          <a href="#" class="sm:hover:border-b-2 opacity-70 hover:opacity-100"
+            ><li>Home</li></a
+          >
+          <div onclick="changeMode()" id="addMode">
+            <!-- <span></span> -->
+          </div>
+        </ul>
+
+        <div
+          class="text-white text-2xl sm:hidden"
+          id="icon"
+          aria-hidden="true"
+          onclick="myFunction()"
+        ></div>
+      </div>
+    </header>
+    <!-- CLASSICAL NORMAL HEADER ENDS HERE-->
+
+    <!-- HEADER WITH A DROP DOWN ANIMATION BEGINS HERE -->
+    <div class="seconHeader">
+      <header class="bg-[teal] text-white p-5 flex justify-between">
+        <a href="" class="text-white text-2xl uppercase">
+          <h1>Dovey</h1>
+        </a>
+         
+        <div class="flex div">
+          <ul class="uppercase flex gap-5 a-ul">
+            <a href="">
+              <li>home</li>
+            </a>
+            <a href="">
+              <li>services</li>
+            </a>
+            <a href="">
+              <li>about us</li>
+            </a>
+          </ul>
+          <div class="text-white text-2xl sm:hidden" 
+          id="iconf"aria-hidden="true"
+          onclick="getNav()"></div>
+        </div>
+      </header>
+      <div class="div">
+        <ol
+          class="uppercase bg-black text-white gap-5 a-ol p-5  top-0 hidden absolute w-full"
+          id='displayNav'
+        >
+          <a href="">
+            <li>home</li>
+          </a>
+          <a href="">
+            <li>services</li>
+          </a>
+          <a href="">
+            <li>about us</li>
+          </a>
+        </ol>
+      </div>fsasadaf
+    </div>
+
+    <!-- HEADER WITH A DROP DOWN ANIMATION ENDS HERE -->
+    <!-- 
+    <div class="p-5 relative">
+      <div class="flex items-center justify-center mt-48">
+        <button class="bg-blue-900 p-3 rounded text-[#ffffa3] hover:text-blue-900 capitalize font-bold hover:bg-[#ffffa3]" onclick="modalFunction()">
+          open modal <i class="fas fa-shuffle"></i>
+        </button>
+      </div>
+    <div class="absolute top-0  w-full  left-0  bottom-0 bg-[rgb(0,0,255,0.2)] diveds  items-center justify-center  flex" id="modal">
+      <div>
+        <img
+          src="../assets/images/IMG_me (copy).JPG"
+          alt="Picture of Jcole"
+          width="257px"
+          height="257px"
+        />
+
+        <p class='bg-[white] w-64 py-5 px-2 shadow-2xl'>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old.
+        </p>
+      </div>
+
+      <i class="fas fa-x absolute right-96 bottom-56 bg-blue-900 p-3 rounded text-[#ffffa3] hover:text-blue-900 capitalize font-bold hover:bg-[#ffffa3]" onclick="hideModal( )"></i>
+    </div>
+
+    </div>
+ -->
+    <!-- <div
+      onclick="clickMeEvent(this)"
+      class="bg-[tomato] w-40 h-20 text-center font-bold text-lg text-white m-5 pt-5 float-left"
+    >
+      Click Me
+    </div> -->
+
+    <!-- <div
+      class="h-20 border-4 border-r-slate-500 w-20 rounded-full animate-spin sm:animate-round"
+    >
+      <span></span>
+    </div> -->
+
+    <script src="../assets/js/javascript.js"></script>
+  </body>
+</html>

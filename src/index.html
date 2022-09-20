@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwindCSS</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.css" />
+  </head>
+  <body class="bg-[#F9884A] box-border m-0">
+    <div class="bg-[#ECEDF2] flex m-8 p-10 shadow-lg gap-20">
+      <div class="flex gap-10">
+        <div class="flex flex-col gap-4">
+          <div class="border-8">
+            <img src="../assets/images/nike_1.webp" alt="" width="250px" />
+          </div>
+
+          <div class="border-8">
+            <img src="../assets/images/nike_3.jpeg" alt="" width="250px" />
+          </div>
+
+          <div class="border-8">
+            <img src="../assets/images/nike_2.jpg" alt="" width="250px" />
+          </div>
+        </div>
+        <div class="flex gap-4 flex-col">
+          <p class="font-light capitalize">
+            home /originals / <span class="font-bold">shoes</span>
+          </p>
+          <div>
+            <img src="../assets/images/nike_1.webp" alt="" />
+          </div>
+          <div class="flex justify-between font-bold text-lg">
+            <span class="fa-solid fa-arrow-left"></span>
+            <span class="fa-solid fa-arrow-right"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-10">
+        <div class="flex flex-col gap-4">
+          <div>
+            <p class="uppercase font-light tracking-widest">originals</p>
+            <h1 class="uppercase font-bold text-2xl">nike jordans</h1>
+          </div>
+          <h2 class="text-2xl font-light">$180</h2>
+          <div class="flex gap-2">
+            <div
+              class="relative w-8 h-8 p-0.5 rounded-full border-2 border-transparent hover:border-gray-600"
+            >
+              <div class="bg-[#F9884A] rounded-full w-6 h-6"></div>
+            </div>
+            <div
+              class="relative w-8 h-8 p-0.5 rounded-full border-2 border-transparent hover:border-gray-600"
+            >
+              <div class="bg-gray-400 rounded-full w-6 h-6"></div>
+            </div>
+            <div
+              class="relative w-8 h-8 p-0.5 rounded-full border-2 border-transparent hover:border-gray-600"
+            >
+              <div class="bg-[#000] rounded-full w-6 h-6"></div>
+            </div>
+          </div>
+          <div
+            class="relative flex items-center border-2 border-gray-500 w-36 text-sm uppercase px-2 py-1"
+          >
+            <label for="cars" class=" ">Select Size:</label>
+            <select
+              name="cars"
+              id="cars"
+              class="outline-none border-2 border-none bg-transparent absolute left-24"
+            >
+              <option value="mercedes"></option>
+              <option value="mercedes">34</option>
+              <option value="mercedes">34</option>
+              <option value="mercedes">34</option>
+              <option value="audi">23</option>
+            </select>
+          </div>
+          <div class="flex items-center gap-2">
+            <div
+              class="bg-black text-white text-sm font-semi-bold p-2 gap-3 w-36"
+            >
+              <button class="uppercase">
+                add to bag
+                <span class="fa-solid fa-arrow-right relative left-6"></span>
+              </button>
+            </div>
+            <div class="border-2 border-gray-600 py-1 px-2 w-10">
+              <button><span class="fa fa-heart"></span></button>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-2 flex-col">
+          <div class="flex gap-3">
+            <h3 class="font-light first-letter:capitalize text-sm">
+              about a product
+            </h3>
+            <h3 class="text-sm capitalize text-gray-800 underline">
+              specifications
+            </h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At labore
+            dolores adipisci ratione dolor fuga deleniti expedita vitae saepe
+            modi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
